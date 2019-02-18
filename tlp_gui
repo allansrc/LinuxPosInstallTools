@@ -1,0 +1,8 @@
+#! /bin/bash
+
+echo -e "installation init > > >"
+sudo add-apt-repository ppa:linrunner/tlp -y && sudo apt update && sudo apt install tlp tlp-rdw -y
+
+sudo add-apt-repository ppa:linuxuprising/apps -y && sudo apt update && sudo apt install tlpui -y
+
+echo -e "it's ok! > > >"
